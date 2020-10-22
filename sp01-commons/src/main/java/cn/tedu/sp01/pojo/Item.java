@@ -12,7 +12,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor //无参构造方法
 @AllArgsConstructor //全参构造方法
 public class Item {
-	private Integer id; //商品id
-	private String name;  //商品名称
-	private Integer number; //商品数量
+	//商品id
+	private Integer id; 
+	//商品名称
+	private String name;
+	//商品数量
+	private Integer number; 
+	
+	//其他代码通过lombok插件生成
 }
